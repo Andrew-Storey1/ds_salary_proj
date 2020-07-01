@@ -2,24 +2,24 @@
 - Create a tool that estimates Data Scientist salaries based on geographic location in the UK.
 - Scrape job descriptions from glassdoor using python and selenium
 - Optimise Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
-- Build a client facing API using flask
+- Build a client-facing API using flask
 
 ## Why and What Next?
 Salaries tend to be higher in bigger cities such as London or Manchester and lower in smaller cities such as Leeds or Newcastle. However, as remote working is becoming the norm due to covid-19 I am curious whether this will change. 
 
-A theory is that as more jobs become remote, there will be less incentive to live in bigger cities. If that is the case, in the future will salaries be determined by where you live rather than location of your office?
+A theory is that as more jobs become remote, there will be less incentive to live in bigger cities. If that is the case, in the future will salaries be determined by where you live rather than the location of your office?
 
 ## Steps
 ### Web Scraping
-Use Selenium to scrape 1000 job postings from glassdoor.com to recieve the following information about each role:
-- Job title / seniority
+Use Selenium to scrape 1000 job postings from glassdoor.com to receive the following information about each role:
+- Job title/seniority
 - Salary Estimate
 - Rating
 - Company
 - Location
 - Company Size
 
-Using selenium again I will scrape Numbeo.com for the cost of living in each city to recieve the following information:
+Using selenium again I will scrape Numbeo.com for the cost of living in each city to receive the following information:
 #### Restaurant Prices
 - Inexpensive Restaurant & Mid-range Restaurant
 - Domestic Beer 
@@ -38,24 +38,24 @@ Using selenium again I will scrape Numbeo.com for the cost of living in each cit
 - Banana (1kg)
 - Oranges (1kg)
 - Tomato (1kg)
-- Potato (1kg)	
-- Onion (1kg)	
+- Potato (1kg)    
+- Onion (1kg)    
 
 ### Transportation
 - One-way Ticket (Local Transport)
 - Monthly Pass (Regular Price)
 - Taxi Start (Normal Tariff)
 - Taxi 1km (Normal Tariff)
-- Gasoline (1 liter)
+- Gasoline (1 litre)
 
-### Utilities	
+### Utilities    
 - Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment
 - Internet (60 Mbps or More, Unlimited Data)
 
 #### Sports And Leisure
-- Fitness Club, Monthly Fee for 1 Adult	
-- Tennis Court Rent (1 Hour on Weekend)	
-- Cinema, International Release, 1 Seat	
+- Fitness Club, Monthly Fee for 1 Adult    
+- Tennis Court Rent (1 Hour on Weekend)    
+- Cinema, International Release, 1 Seat    
 
 #### Clothing And Shoes
 - 1 Pair of Jeans (Levis 501 Or Similar)
@@ -66,11 +66,11 @@ Using selenium again I will scrape Numbeo.com for the cost of living in each cit
 #### Rent Per Month
 - Apartment (1 bedroom) in City Centre
 - Apartment (1 bedroom) Outside of Centre
-- Apartment (3 bedrooms) in City Centre	
+- Apartment (3 bedrooms) in City Centre    
 - Apartment (3 bedrooms) Outside of Centre
 
 #### Buy Apartment Price
-- Price per Square Meter to Buy Apartment in City Centre	
+- Price per Square Meter to Buy Apartment in City Centre    
 - Price per Square Meter to Buy Apartment Outside of Centre
 
 #### Salaries And Financing
@@ -78,9 +78,9 @@ Using selenium again I will scrape Numbeo.com for the cost of living in each cit
 - Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate
 
 ### Data Cleaning
-After scraping the data, I need to clean it up so that will be usable for my model. I will made the following changes and create the following variables:
+After scraping the data, I need to clean it up so that will be usable for my model. I will make the following changes and create the following variables:
 - Parse numeric data out of salary
-- Make columns for employer provided salary and hourly wages
+- Make columns for employer-provided salary and hourly wages
 - Remove rows without salary
 - Parse rating out of company text
 - Column for simplified job title and Seniority
