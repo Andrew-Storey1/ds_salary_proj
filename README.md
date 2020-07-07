@@ -1,7 +1,7 @@
 # Data Science Salary Estimator: Project Overview Pt.1
 - Create a tool that estimates Data Scientist salaries based on geographic location in the UK.
 - Scrape job info from Indeed using python and selenium
-- Optimise Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+- Discover the best model for the peoject and apply it
 - Build a client-facing API using flask
 
 ## Why and What Next?
