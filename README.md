@@ -80,7 +80,6 @@ Using selenium again I will scrape Numbeo.com for the cost of living in each cit
 ### Data Cleaning
 After scraping the data, I need to clean it up so that will be usable for my model. I will make the following changes and create the following variables:
 - Parse numeric data out of salary
-- Make columns for employer-provided salary and hourly wages
+- Make columns for employer-provided salary and yearly wages
 - Remove rows without salary
-- Parse rating out of company text
 - Column for simplified job title and Seniority
