@@ -1,6 +1,6 @@
 # Data Science Salary Estimator: Project Overview Pt.1
 - Create a tool that estimates Data Scientist salaries based on geographic location in the UK.
-- Scrape job info from Indeed using python and selenium
+- Scrape job info from Indeed using Beautifulsoup
 - Discover the best model for the peoject and apply it
 - Build a client-facing API using flask
 
